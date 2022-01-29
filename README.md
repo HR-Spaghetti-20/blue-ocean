@@ -5,10 +5,12 @@ Have you ever needed to keep track of where your favorite street performers are 
 
 Sounds like you need Buskamove: a social networking app that helps performers and their audiences locate and schedule performances.
 
+[![Product Name Screen Shot][product-screenshot]]
+
 ## CONTENTS
 1. [Authors](#authors)
-1. [Installation](#installation)
-1. [API Documentation](#api-documentation)
+2. [Installation](#installation)
+3. [API Documentation](#api-documentation)
     * [/updatePerformances](#get-updateperformances)
     * [/performersNearby](#get-performersnearby)
     * [/getUser](#get-getuser)
@@ -24,13 +26,13 @@ Sounds like you need Buskamove: a social networking app that helps performers an
 
 ## AUTHORS
 * Project Manager
-  * Adam Rakla
+  * Adam Rakla - [@AdamRakla](https://github.com/AdamRakla)|[LinkedIn](https://www.linkedin.com/in/adam-rakla/)
 * UI Design
-  * Miguel Regalado
-  * Max Zhao
+  * Miguel Regalado - [@miguelmar21](https://github.com/miguelmar21)|[LinkedIn](https://www.linkedin.com/in/miguel-regalado/)
+  * Max Zhao - [@MaxZ98](https://github.com/MaxZ98)|[LinkedIn](https://www.linkedin.com/in/maxzhao98/)
 * Architecture
-  * Prince Addai
-  * Jeff DeSouza
+  * Prince Addai - [@PhiAgent](https://github.com/PhiAgent)|[LinkedIn](https://www.linkedin.com/in/prince-gyekye-addai/)
+  * Jeff DeSouza - [@jeffdesouzadev](https://github.com/jeffdesouzadev)|[LinkedIn](https://www.linkedin.com/in/jeff-desouza/)
 
 ##### Note: Because the team was so small, everyone took part in Architecture and Design.  Also, each team member's full stack work threaded data through the MongoDB database and React UI components.
 
@@ -70,29 +72,7 @@ Sounds like you need Buskamove: a social networking app that helps performers an
 
 <br>
 
-**STEP SIX:** Environment variables!  You need to create two files:
-1. /server/config.env
-
-    which includes three variables:
-    >PORT = 3000
-
-    >MONGO_URI = mongodb+srv://[username]:[password]@spaghetti-cluster.p5ovz.mongodb.net/buskamove
-
-    Please use your MongoDB Atlas username and password for the MONGO_URI
-    >NODE_ENV = development
-
-2. /config.js (root folder)
-
-    which includes the API key needed for google maps:
-    >API_KEY = '0123456DEFGhijklmnopqrSTUV'
-    module.exports = API_KEY
-
-  Note: Please be sure that your config.env file's values are NOT in quotes, and that your config.js file's value IS in quotes.
-
-<br>
-
-
-**STEP SEVEN:**
+**STEP SIX:**
   > profit.
 
 <br>
@@ -440,3 +420,5 @@ Log out of the application.
 |--------|
 |200 OK: User logged out
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: out.gif
